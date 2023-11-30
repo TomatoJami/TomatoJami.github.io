@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о картинах</title>
+    <meta name="description" content="Артбаза - это портал о искусстве" />
+    <meta name="keywords" content="Картины" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">Артбаза</a></h1>
+                    <h2>Искусство - наша страсть!</h2>
+                </div>
+            </div>
+
+            <div class="menubar">
+
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="painting.html">Живопись</a></li>
+                    <li><a href="portraits.html">Портреты</a></li>
+                    <li class="selected"><a href="info.html">Информация о картинах</a></li>
+                    <li><a href="contact.html">Контакты</li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        
+        <div class="site_content">
+
+            <div class="sidebar_container">
+
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="post" action="#" id="login">
+
+                        <input type="text" name="login_field" placeholder="логин" />
+                        <input type="password" name="password_field" placeholder="пароль" />
+                        <input type="submit" name="btn" value="вход" />
+                        <div class="lables_passreg_text">
+                            <span><a href="#">Забыли пароль?</a></span>
+                            <span><a href="#">Регистарция</a></span>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>31.02.2018</span>
+                    <p>Мы запустили расширенный поиск</p>
+                    <a href="#">Читать</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Живописные картины</h2>
+                    <ul>
+                        <li><a href="show_fleet.html">Черноморский флот</a></li>
+                        <li><a href="show_starnight.html">Звёздная ночь</a></li>
+                        <li><a href="show_shout.html">Крик</a></li>
+                        <li><a href="show_pineforest.html">Утро в сосновом лесу</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="content">
+
+                <table>
+
+                    <tr>
+                        <th></th>
+                        <th class="center">Картина</th>
+                        <th class="center">Год</th>
+                        <th class="center">Художник/и</th>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="fleet.jpg" style="width: 100%;"></td>
+                        <td class="center">1. <a href="show_fleet.html">Смотр черноморского флота</a></td>
+                        <td class="center">1849</td>
+                        <td class="center">Иван Айвазовский</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="starnight.jpg" style="width: 100%;"></td>
+                        <td class="center">2. <a href="show_starnight.html">Звёздная ночь</a></td>
+                        <td class="center">1889</td>
+                        <td class="center">Винсент Ван Гог</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="shout.jpg" style="width: 100%;"></td>
+                        <td class="center">3. <a href="show_shout.html">Крик</a></td>
+                        <td class="center">1893</td>
+                        <td class="center">Эдвард Мунк</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="pineforest.jpeg" style="width: 100%;"></td>
+                        <td class="center">4. <a href="show_pineforest.html">Утро в сосновом лесу</a></td>
+                        <td class="center">1889</td>
+                        <td class="center">Иван Шишкин, Константин Савицкий</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="monalisa.jpg" style="width: 100%;"></td>
+                        <td class="center">5. <a href="show_monalisa.html">Мона Лиза</a></td>
+                        <td class="center">1503</td>
+                        <td class="center">Леонардо Да Винчи</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="woman.jpg" style="width: 100%;"></td>
+                        <td class="center">6. <a href="show_woman.html">Девушка с жемчужной серёжкой</a></td>
+                        <td class="center">1665</td>
+                        <td class="center">Ян Вермеер</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="adelbloh.jpg" style="width: 100%;"></td>
+                        <td class="center">7. <a href="show_adel.html">Адель Блох-Бауэр</a></td>
+                        <td class="center">1907</td>
+                        <td class="center">Густав Климт</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="vertumne.jpg" style="width: 100%;"></td>
+                        <td class="center">8. <a href="show_vertumne.html">Вертумн</a></td>
+                        <td class="center">1591</td>
+                        <td class="center">Джузеппе Арчимбольдо</td>
+                    </tr>
+
+                </table>
+            </div>
+        
+        </div>
+    
+    <footer class="footer">
+        <p>
+            <a href="index.html">Главная</a> |
+            <a href="painting.html">Живопись</a> |
+            <a href="portraits.html">Портреты</a> |
+            <a href="info.html">Информация о картинах</a> |
+            <a href="contact.html">Контакты</a> |
+        </p>
+        <p>wikipedia.org</p>
+    </footer>
+
+    </div>
+
+</body>
+</html>

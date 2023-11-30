@@ -1,0 +1,49 @@
+.nav-link, .navbar-brand{
+    color: #E5E5E5;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#navbar{
+    background-color: blue;
+}
+
+.header button {
+    color: black; /* Белый текст */
+    background-color: white; /* Фон */
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+.blue-border-container {
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+
+.blue-border-container .col-md-auto {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1900px) {
+    .rectangle1{
+        display: none;
+    }
+}
+
+
+#yt{
+    width: 642px;
+    height: 361px;
+}
+
+@media (max-width: 1000px) {
+    #yt {
+        width: 400px;
+        height: 250px;
+    }
+}
