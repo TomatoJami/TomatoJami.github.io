@@ -1,0 +1,35 @@
+.lessons-block .container img{
+    width: 400px;
+    height: 320px;
+    vertical-align: bottom;
+}
+
+.lessons-block h1, img {
+    margin: 0;
+}
+
+.lessons-block{
+    color: white;
+}
+
+.nature-block p{
+    color: rgb(170, 170, 170);
+}
+
+.nature-block .container img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.stop-block p{
+    margin: 0;
+}
+
+.explanation-block{
+    vertical-align: bottom;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,24 @@
+.lessons-block .container img{
+    width: 400px;
+    height: 320px;
+}
+
+.lessons-block h1, img {
+    margin: 0;
+}
+
+.cars-block p{
+    color: rgb(170, 170, 170);
+}
+
+.cars-block .container .row{
+    flex-basis: calc(25% - 10px);
+}
+
+.footer p{
+    margin: 0;
+}
+
+.stop-block p{
+    margin: 0;
+}
