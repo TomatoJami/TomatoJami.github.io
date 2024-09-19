@@ -1,6 +1,6 @@
-var FIELD_SIZE_X = 20;
-var FIELD_SIZE_Y = 20;
-var SNAKE_SPEED = 300;
+var FIELD_SIZE_X = 40;
+var FIELD_SIZE_Y = 40;
+var SNAKE_SPEED = 100;
 var snake = [];
 var direction = "y+"
 var gameIsRunning = "false"
@@ -13,7 +13,7 @@ function init() {
 
     var wrap = document.getElementsByClassName("wrap")[0];
 
-    wrap.style.width = '400px';
+    wrap.style.width = '800px';
 
     document.getElementById('snake-start').addEventListener('click', startGame);
     document.getElementById('snake-renew').addEventListener('click', refreshGame);
