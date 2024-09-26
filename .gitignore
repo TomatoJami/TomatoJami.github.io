@@ -9,3 +9,5 @@ build.xml
 /out
 
 /.idea
+
+/webApp/node_modules
