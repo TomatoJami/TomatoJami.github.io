@@ -11,3 +11,5 @@ build.xml
 /.idea
 
 /webApp/node_modules
+
+/react_1/node_modules
