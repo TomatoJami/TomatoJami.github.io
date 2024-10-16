@@ -13,3 +13,5 @@ build.xml
 /webApp/node_modules
 
 /todo/node_modules
+
+/IceAndFire/node_modules
