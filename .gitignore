@@ -15,3 +15,7 @@ build.xml
 /todo/node_modules
 
 /IceAndFire/node_modules
+
+/NodeStart/node_modules
+
+/NodeStart/package-lock.json
