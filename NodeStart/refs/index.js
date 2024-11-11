@@ -1,4 +1,4 @@
-const obj = require('./user')
+const obj = require('../user')
 
 console.log(obj.user)
 
