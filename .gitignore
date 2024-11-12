@@ -19,3 +19,7 @@ build.xml
 /NodeStart/node_modules
 
 /NodeStart/package-lock.json
+
+/Redux/node_modules
+
+/Redux/package-lock.json
