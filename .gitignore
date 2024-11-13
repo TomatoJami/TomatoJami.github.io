@@ -23,3 +23,7 @@ build.xml
 /Redux/node_modules
 
 /Redux/package-lock.json
+
+/Heroes/node_modules
+
+/Heroes/package-lock.json
